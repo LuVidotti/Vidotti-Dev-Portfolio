@@ -1,0 +1,33 @@
+.info-projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-projeto h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.info-projeto p {
+    margin: 1em 0;
+    font-weight: 400;
+    color: #717171;
+    font-size: 18px;
+}
+
+.info-projeto a {
+    margin-right: 32px;
+    color: #D04023;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid #D04023;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.25s;
+}
+
+.info-projeto a:hover {
+    background-color: #D04023;
+    color: #FFFFFF;
+}

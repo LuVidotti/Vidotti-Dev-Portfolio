@@ -1,0 +1,17 @@
+.projetos {
+    padding: 4em 5em 0em 5em;
+}
+
+.projetos div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5em 0 5em;
+    margin-bottom: 5em;
+}
+
+.projetos img {
+    width: 30vw;
+    border-radius: 16px;
+    box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.25);
+}

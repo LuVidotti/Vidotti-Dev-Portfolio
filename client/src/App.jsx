@@ -1,5 +1,6 @@
 import Habilidades from "./components/Habilidades"
 import Header from "./components/Header"
+import Projetos from "./components/Projetos"
 import SobreMim from "./components/SobreMim"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <SobreMim />
       <Habilidades />
+      <Projetos />
     </div>
   )
 }
