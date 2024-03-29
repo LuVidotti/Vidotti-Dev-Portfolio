@@ -7,8 +7,8 @@ function Header() {
         <header className="cabecalho">
             <img src={Logo} alt="Logotipo da Vidotti Dev" />
             <nav>
-                <NavLink href="#">Sobre mim</NavLink>
-                <NavLink href="#">Habilidades</NavLink>
+                <NavLink href="#sobre-mim">Sobre mim</NavLink>
+                <NavLink href="#habilidades">Habilidades</NavLink>
                 <NavLink href="#">Projetos</NavLink>
                 <NavLink href="#">Contato</NavLink>
             </nav>

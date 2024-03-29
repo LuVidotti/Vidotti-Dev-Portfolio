@@ -1,0 +1,23 @@
+.habilidades {
+    padding: 4em 5em 0 5em;
+}
+
+.habilidades div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 20vw;
+    height: 80px;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.icon:hover {
+    background-color: #D04023;
+    color: #FFFFFF;
+}
