@@ -4,7 +4,7 @@ import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiNodejs, DiPostgresql, DiMysq
 
 function Habilidades() {
     return (
-        <section id="habilidades" className="habilidades">
+        <section data-aos="flip-left" id="habilidades" className="habilidades">
             <Titulo>Habilidades</Titulo>
             <div>
                 <DiHtml5 className="icon"/>

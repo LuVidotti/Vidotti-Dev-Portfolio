@@ -5,7 +5,7 @@ import { FaSquareEnvelope, FaSquareInstagram, FaSquareWhatsapp, FaLinkedin } fro
 
 function Contato() {
     return(
-        <section id="contato" className="contato">
+        <section data-aos="zoom-in" id="contato" className="contato">
             <Titulo>Contato</Titulo>
             <div className="redes">
                 <a className="rede email" href="mailto:luisfe_vidotti@hotmail.com">
