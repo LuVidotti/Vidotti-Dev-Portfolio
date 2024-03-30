@@ -1,6 +1,6 @@
 import Titulo from "../Titulo";
 import "./Contato.css";
-import { FaSquareEnvelope, FaSquareGithub, FaSquareInstagram, FaSquareWhatsapp, FaLinkedin } from "react-icons/fa6";
+import { FaSquareEnvelope, FaSquareInstagram, FaSquareWhatsapp, FaLinkedin } from "react-icons/fa6";
 
 
 function Contato() {
@@ -23,10 +23,6 @@ function Contato() {
                 <a className="rede linkedin" href="https://www.linkedin.com/in/lu%C3%ADs-felipe-vidotti-de-almeida-5061a3270/">
                     <FaLinkedin className="rede-icon" />
                     Luís Felipe Vidotti de Almeida
-                </a>
-                <a className="rede github" href="https://github.com/LuVidotti">
-                    <FaSquareGithub className="rede-icon" />
-                    LuVidotti
                 </a>
             </div>
         </section>

@@ -1,0 +1,45 @@
+.footer {
+    background-color: #D04023;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4em;
+    padding: 3em;
+}
+
+.footer img {
+    width: 50px;
+}
+
+.acesso-rapido {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.acesso-rapido h4 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.acesso-rapido a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.acesso-rapido a:hover {
+    text-decoration: underline;
+}
+
+.siga-me {
+    display: flex;
+    gap: 10px;
+}
+
+.siga-me a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+}

@@ -1,4 +1,5 @@
 import Contato from "./components/Contato"
+import Footer from "./components/Footer"
 import Habilidades from "./components/Habilidades"
 import Header from "./components/Header"
 import Projetos from "./components/Projetos"
@@ -12,6 +13,7 @@ function App() {
       <Habilidades />
       <Projetos />
       <Contato />
+      <Footer />
     </div>
   )
 }
