@@ -29,3 +29,13 @@
 .info-projeto a:hover {
     background-color: #a23520;
 }
+
+@media screen and (max-width: 900px) {
+    .info-projeto h2 {
+        font-size: 28px;
+    }
+
+    .info-projeto p {
+        width: 80vw;
+    }
+}

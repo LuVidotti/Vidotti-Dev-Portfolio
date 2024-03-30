@@ -4,7 +4,7 @@ import Foto from "../../assets/foto de perfil linkedin.jpeg";
 
 function SobreMim() {
     return (
-        <section data-aos="fade-down" id="sobre-mim" className="sobre-mim">
+        <section data-aos="fade-down" data-aos-delay="50" id="sobre-mim" className="sobre-mim">
             <Titulo>Sobre mim</Titulo>
             <div>
                 <img src={Foto} alt="Foto de Luis Felipe Vidotti" />

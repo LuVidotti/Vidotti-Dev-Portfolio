@@ -43,3 +43,12 @@
     text-decoration: none;
     font-size: 22px;
 }
+
+@media screen and (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+}

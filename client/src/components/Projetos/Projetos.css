@@ -15,3 +15,14 @@
     border-radius: 16px;
     box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.25);
 }
+
+@media screen and (max-width: 900px) {
+    .projetos div {
+        flex-direction: column;
+    }
+
+    .projetos img {
+        width: 75vw;
+        margin-bottom: 3em;
+    }
+}

@@ -10,12 +10,16 @@
     z-index: 1;
 }
 
+.menu {
+    display: none;
+}
+
 .cabecalho img {
     width: 200px;
     cursor: pointer;
 }
 
-.cabecalho nav {
+.desktop-nav {
     display: flex;
     gap: 2em;
 }
@@ -34,4 +38,38 @@
 .fale-comigo:hover {
     background-color: #D04023;
     color: #FFFFFF;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .fale-comigo {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: relative;
+    }
+
+    .cabecalho img {
+        width: 100px;
+    }
+
+    .nav--ativa {
+        display: flex;
+        background-color: #FFFFFF;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        padding: 20px;
+        gap: 1em;
+    }
 }

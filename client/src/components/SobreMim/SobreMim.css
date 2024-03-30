@@ -21,3 +21,18 @@
     color: #717171;
     font-weight: 300;
 }
+
+@media screen and (max-width: 900px) {
+    .sobre-mim img {
+        width: 300px;
+    }
+
+    .sobre-mim p {
+        width: fit-content;
+    }
+
+    .sobre-mim div {
+        display: flex;
+        flex-direction: column;
+    }
+}
