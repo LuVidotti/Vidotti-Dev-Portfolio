@@ -10,9 +10,9 @@ function Header() {
                 <NavLink href="#sobre-mim">Sobre mim</NavLink>
                 <NavLink href="#habilidades">Habilidades</NavLink>
                 <NavLink href="#projetos">Projetos</NavLink>
-                <NavLink href="#">Contato</NavLink>
+                <NavLink href="#contato">Contato</NavLink>
             </nav>
-            <a className="fale-comigo" href="#">Fale comigo</a>
+            <a className="fale-comigo" href="#contato">Fale comigo</a>
         </header>
     )
 }

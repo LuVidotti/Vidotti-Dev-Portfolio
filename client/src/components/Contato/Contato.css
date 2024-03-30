@@ -1,0 +1,43 @@
+.contato {
+    display: grid;
+    place-items: center;
+}
+
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+.rede {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #717171;
+    gap: 10px;
+}
+
+.rede-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.email:hover :first-child {
+    color: #0072c6;
+}
+
+.whats:hover :first-child {
+    color: #00bb2d;
+}
+
+.insta:hover :first-child {
+    color: #dd2a7b;
+}
+
+.linkedin:hover :first-child {
+    color: #0e76a8;
+}
+
+.github:hover :first-child {
+    color: #171515;
+}

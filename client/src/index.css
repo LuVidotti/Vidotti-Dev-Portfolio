@@ -22,3 +22,7 @@ body {
     background-color: #D04023; /* Cor do indicador da barra de rolagem */
     border-radius: 6px; /* Borda arredondada do indicador */
 }
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ae351d;
+}

@@ -8,7 +8,7 @@ function SobreMim() {
             <Titulo>Sobre mim</Titulo>
             <div>
                 <img src={Foto} alt="Foto de Luis Felipe Vidotti" />
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Meu nome é Luís Felipe Vidotti e sou apaixonado por tecnologia. Atualmente estou cursando análise e desenvolvimento de sistemas e tenho como objetivo me tornar um desenvolvedor FullStack. Ainda busco minha primeira oportunidade profissional porém tenho diversos projetos pessoais, os quais coloco minhas habilidades a mostra, sendo elas: html, css, javascript, react, node, react-native, postgresql, mysql e mongoDB. Além da faculdade, utilizo a plataforma Alura para me desenvolver ainda mais como profissional.</p>
             </div>
         </section>
     )

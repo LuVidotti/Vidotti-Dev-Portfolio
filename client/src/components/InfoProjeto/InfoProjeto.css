@@ -17,17 +17,15 @@
 }
 
 .info-projeto a {
-    margin-right: 32px;
-    color: #D04023;
+    color: #FFFFFF;
+    background-color: #D04023;
     font-weight: bold;
     text-decoration: none;
-    border: 3px solid #D04023;
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.25s;
 }
 
 .info-projeto a:hover {
-    background-color: #D04023;
-    color: #FFFFFF;
+    background-color: #a23520;
 }
